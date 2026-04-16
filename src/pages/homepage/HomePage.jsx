@@ -13,7 +13,7 @@ function HomePage() {
           nurture the relationships that matter most.
         </p>
 
-        <button className="bg-[#244D3F] hover:bg-[#1e4135] text-white text-[1rem] font-semibold px-4 py-3 rounded">
+        <button  className="bg-[#244D3F] hover:bg-[#1e4135] text-white text-[1rem] font-semibold px-4 py-3 rounded">
           <span className="text-xl">+</span> Add a Friend
         </button>
       </div>
