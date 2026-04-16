@@ -1,8 +1,7 @@
 import { use } from "react";
 
-const friendsPromise = fetch("/friends.json").then((res) => res.json());
 
-function AllFriends() {
+function AllFriends({friendsPromise}) {
   const friends = use(friendsPromise);
   console.log(friends);
 
@@ -14,7 +13,7 @@ function AllFriends() {
           return (
             <div
               key={friend.id}
-              class="bg-white rounded-lg shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] p-6 flex flex-col items-center text-center gap-3"
+              class="bg-white rounded-lg shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] p-6 flex flex-col items-center text-center gap-3 cursor-pointer hover:brightness-95"
             >
               <img
                 src={friend.picture}
