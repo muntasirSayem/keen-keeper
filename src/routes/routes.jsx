@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../layout/MainLayout";
-import HomePage from "../pages/homepage/homepage";
 import FriendDetails from "../pages/friendDetails/FriendDetails";
-import Timeline from "../pages/timeline/timeline";
 import Stats from "../pages/stats/Stats";
+import HomePage from "../pages/homepage/HomePage";
+import Timeline from "../pages/timeline/Timeline";
 
 export const router = createBrowserRouter([
   {
