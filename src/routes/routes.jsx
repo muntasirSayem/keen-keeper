@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePage /> },
       {
-        path: "/friend-details",
+        path: "friend-details",
         element: <FriendDetails />,
       },
       {
