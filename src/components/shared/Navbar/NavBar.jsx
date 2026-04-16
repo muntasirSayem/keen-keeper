@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import "./Navbar.css";
 
 function NavBar() {
   return (
@@ -8,7 +9,7 @@ function NavBar() {
         <img src="/Images/logo/logo.png" alt="" />
       </a>
       {/* Nav Links */}
-      <div className="flex items-center gap-8 text-[1rem] text-[#64748B] font-semibold">
+      <div id="navLink" className="flex items-center gap-8 text-[1rem] text-[#64748B] font-semibold">
         <NavLink to="/" className="flex items-center gap-1 hover:underline">
           <i className="fa-solid fa-house"></i>
           <span>Home</span>

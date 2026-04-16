@@ -16,15 +16,15 @@ function Footer() {
             <h4 className="text-white text-xl font-medium">Social Links</h4>
 
             <div className="flex items-center gap-3">
-              <a className="hover:brightness-90">
+              <a className="hover:brightness-90 transition duration-200 active:scale-95 cursor-pointer">
                 <img src="/Images/icon/instagram.png" alt="" />
               </a>
 
-              <a className="hover:brightness-90">
+              <a className="hover:brightness-90 transition duration-200 active:scale-95 cursor-pointer">
                 <img src="/Images/icon/facebook.png" alt="" />
               </a>
 
-              <a className="hover:brightness-90">
+              <a className="hover:brightness-90 transition duration-200 active:scale-95 cursor-pointer">
                 <img src="/Images/icon/twitter.png" alt="" />
               </a>
             </div>

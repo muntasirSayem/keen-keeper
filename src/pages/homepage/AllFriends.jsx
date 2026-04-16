@@ -13,7 +13,7 @@ function AllFriends({ friends }) {
               <Link
                 to={`/friend-details/${friend.id}`}
                 key={friend.id}
-                className="bg-white rounded-lg shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] p-6 flex flex-col items-center text-center gap-3 cursor-pointer hover:brightness-95"
+                className="bg-white rounded-lg shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] p-6 flex flex-col items-center text-center gap-3 cursor-pointer hover:brightness-95 transition duration-200 active:scale-95"
               >
                 <img
                   src={friend.picture}

@@ -66,15 +66,15 @@ function FriendDetails() {
 
         {/* Action Buttons */}
         <div className="flex flex-col gap-2">
-          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#1F2937] text-[1rem] font-medium transition hover:brightness-95 border border-[#E9E9E9] cursor-pointer">
+          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#1F2937] text-[1rem] font-medium hover:brightness-95 border border-[#E9E9E9] cursor-pointer transition duration-200 active:scale-95">
             <i className="fa-regular fa-bell"></i> Snooze 2 Weeks
           </button>
 
-          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#1F2937] text-[1rem] font-medium transition hover:brightness-95 border border-[#E9E9E9] cursor-pointer">
+          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#1F2937] text-[1rem] font-medium transition duration-200 active:scale-95 hover:brightness-95 border border-[#E9E9E9] cursor-pointer">
             <i className="fa-solid fa-box-archive"></i> Archive
           </button>
 
-          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#EF4444] text-[1rem] font-medium transition hover:brightness-95 border border-[#E9E9E9] cursor-pointer">
+          <button className="bg-white rounded-l p-4 flex items-center justify-center gap-2 text-[#EF4444] text-[1rem] font-medium transition duration-200 active:scale-95 hover:brightness-95 border border-[#E9E9E9] cursor-pointer">
             <i className="fa-regular fa-trash-can"></i> Delete
           </button>
         </div>
@@ -111,7 +111,7 @@ function FriendDetails() {
               Relationship Goal
             </h4>
 
-            <button className="border border-[#E9E9E9] text-[#1F2937] text-sm font-medium px-4 py-2 rounded-l bg-[#F8FAFC] hover:brightness-95 transition cursor-pointer">
+            <button className="border border-[#E9E9E9] text-[#1F2937] text-sm font-medium px-4 py-2 rounded-l bg-[#F8FAFC] hover:brightness-95 transition duration-200 active:scale-95 cursor-pointer">
               Edit
             </button>
           </div>
@@ -130,19 +130,19 @@ function FriendDetails() {
 
           <div className="grid grid-cols-3 gap-4">
             {/* Call */}
-            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition cursor-pointer">
+            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition duration-200 active:scale-95 cursor-pointer">
               <img src="/Images/icon/call.png" alt="Call" />
               <span className="text-[#1F2937] text-lg">Call</span>
             </button>
 
             {/* Text */}
-            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition cursor-pointer">
+            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition duration-200 active:scale-95 cursor-pointer">
               <img src="/Images/icon/text.png" alt="Text" />
               <span className="text-[#1F2937] text-lg">Text</span>
             </button>
 
             {/* Video */}
-            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition cursor-pointer">
+            <button className="bg-[#F8FAFC] rounded-lg border border-[#E9E9E9] py-4 flex flex-col items-center justify-center gap-2 hover:brightness-95 transition duration-200 active:scale-95 cursor-pointer">
               <img src="/Images/icon/video.png" alt="Video" />
               <span className="text-[#1F2937] text-lg">Video</span>
             </button>

@@ -1,0 +1,6 @@
+#navLink .active {
+    color: white;
+    background-color: #244D3F;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
