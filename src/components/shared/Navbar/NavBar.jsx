@@ -15,7 +15,7 @@ function NavBar() {
         </NavLink>
 
         <NavLink
-          to="/"
+          to="/timeline"
           className="flex items-center gap-1 hover:underline"
         >
           <i className="fa-regular fa-clock"></i>
@@ -23,7 +23,7 @@ function NavBar() {
         </NavLink>
 
         <NavLink
-          to="/"
+          to="/stats"
           className="flex items-center gap-1 hover:underline"
         >
           <i className="fa-solid fa-chart-line"></i>

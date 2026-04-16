@@ -46,7 +46,7 @@ function HomePage() {
       <div className="max-w-278 mx-auto space-y-4">
         <h4 className="text-2xl font-semibold text-[#1F2937]">Your Friends</h4>
         <div>
-            <img src="/Images/Frame 2087325672.png" alt="" />
+            
         </div>
       </div>
     </div>
