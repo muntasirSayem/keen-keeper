@@ -1,20 +1,22 @@
 import AllFriends from "./AllFriends";
 import Banner from "./Banner";
 import Summary from "./Summary";
+import { useLoaderData } from "react-router";
 
-const friendsPromise = fetch("/friends.json").then((res) => res.json());
 
 function HomePage() {
+  const friends = useLoaderData();
+
   return (
     <div className="py-20 space-y-10">
       {/* BANNER */}
       <Banner />
 
       {/* SUMMARY */}
-      <Summary friendsPromise={friendsPromise} />
+      <Summary friends={friends} />
 
       {/* FRIENDS */}
-      <AllFriends friendsPromise={friendsPromise} />
+      <AllFriends friends={friends} />
     </div>
   );
 }

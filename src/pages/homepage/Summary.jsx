@@ -1,7 +1,5 @@
-import { use } from "react";
 
-function Summary({ friendsPromise }) {
-  const friends = use(friendsPromise);
+function Summary({ friends}) {
 
   const totalFriends = friends.length;
 

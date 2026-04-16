@@ -10,10 +10,18 @@ export const router = createBrowserRouter([
     path: "/",
     element: <MainLayout />,
     children: [
-      { index: true, element: <HomePage /> },
       {
-        path: "friend-details",
+        index: true,
+        element: <HomePage />,
+        loader: async () => {
+          const res = await fetch("/friends.json");
+          return res.json();
+        },
+      },
+      {
+        path: "/friend-details/:friendId",
         element: <FriendDetails />,
+        loader: () => fetch("/friends.json"),
       },
       {
         path: "timeline",
